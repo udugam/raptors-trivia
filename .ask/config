@@ -1,0 +1,40 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.4760cab2-fc86-4344-a9c1-0d96d49abb0f",
+      "was_cloned": false,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "ask-custom-trivia-default"
+              }
+            }
+          }
+        }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "dab0a7a8295ad9965ac3db754237b530"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "41988a2e2bcef4e0aedc6420b996c938"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:849042453443:function:ask-custom-trivia-default",
+            "functionName": "arn:aws:lambda:us-east-1:849042453443:function:ask-custom-trivia-default",
+            "awsRegion": "us-east-1",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "62d5c960-4c92-4c03-b12d-246eb88a3483"
+          }
+        ]
+      }
+    }
+  }
+}
