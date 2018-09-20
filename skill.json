@@ -11,6 +11,16 @@
           ],
           "name": "raptors trivia",
           "description": "Sample Full Description"
+        },
+        "en-CA": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa open raptors trivia",
+            "Alexa tell raptors trivia to start a game",
+            "Alexa tell raptors trivia I want to play"
+          ],
+          "name": "raptors trivia",
+          "description": "Sample Full Description"
         }
       },
       "isAvailableWorldwide": true,
