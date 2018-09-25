@@ -3,30 +3,48 @@
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "summary": "Sample Short Description",
+          "summary": "Trivia questions about the Toronto Raptors",
           "examplePhrases": [
             "Alexa open raptors trivia",
             "Alexa tell raptors trivia to start a game",
             "Alexa tell raptors trivia I want to play"
           ],
-          "name": "raptors trivia",
-          "description": "Sample Full Description"
+          "name": "Raptors Trivia",
+          "keywords": [
+                        "Toronto",
+                        "Raptors",
+                        "Basketball",
+                        "Raptors",
+                        "Toronto"
+                      ],
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/ef6c/41ee150ff4a84367aead00b19eeae75d/APP_ICON?versionId=tZSgIMA0L5NfgSTYpUBkxfHn_ITJRiJj&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1537918652&Signature=CLKbVjihSrVR63nQqQMXcQksLy0%3D",
+          "description": "This skill enables Alexa to randomly ask you 5 questions from an expanding database of trivia questions.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/4147/f233867806f6468a9a3cba65fe112eff/APP_ICON_LARGE?versionId=SadD8CsyDdZ1hyqb986ThUxQmh.hiqY9&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1537918652&Signature=vSAyUd3snHbcp7BI2ighC9GCRYc%3D"
         },
         "en-CA": {
-          "summary": "Sample Short Description",
+          "summary": "Trivia questions about the Toronto Raptors",
           "examplePhrases": [
             "Alexa open raptors trivia",
             "Alexa tell raptors trivia to start a game",
             "Alexa tell raptors trivia I want to play"
           ],
-          "name": "raptors trivia",
-          "description": "Sample Full Description"
+          "name": "Raptors Trivia",
+          "keywords": [
+                        "Toronto",
+                        "Raptors",
+                        "Basketball",
+                        "Raptors",
+                        "Toronto"
+                      ],
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/7c45/27a5261193da4aa3819dcc658aaee5fd/APP_ICON?versionId=AySwXYBO6VCMmdDhgj0H6xrVmsoWXtud&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1537918652&Signature=uSZ3s1Br30T6NVk1efoHFnFRWCM%3D",
+          "description": "This skill enables Alexa to randomly ask you 5 questions from an expanding database of trivia questions.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/e716/89d22af3085f45acbeb9c6052a5ac261/APP_ICON_LARGE?versionId=Z.pYK.tX2WEdhGvggJW4ZWvQzDr3DDzL&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1537918652&Signature=JBFpB3NMbfnQZVp2ShBIosXHjGo%3D"
         }
       },
-      "isAvailableWorldwide": true,
-      "testingInstructions": "Sample Testing Instructions.",
+      "isAvailableWorldwide": false,
+      "testingInstructions": "None",
       "category": "KNOWLEDGE_AND_TRIVIA",
-      "distributionCountries": []
+      "distributionCountries": ["CA","US"]
     },
     "apis": {
       "custom": {
@@ -35,6 +53,13 @@
         }
       }
     },
-    "manifestVersion": "1.0"
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+            "allowsPurchases": false,
+            "isExportCompliant": true,
+            "containsAds": false,
+            "isChildDirected": false,
+            "usesPersonalInfo": false
+          }
   }
 }
